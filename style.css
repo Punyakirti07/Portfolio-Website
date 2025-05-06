@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(174, 242, 3);
+    color:black;
+    padding: 0;
+    margin: 0;;
+}
+.buttons{
+    border: none;
+    background-color:yellow;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+
+li.header{
+    display: inline-block;
+    margin: 20px;
+}
+ul.header{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
