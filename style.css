@@ -32,26 +32,46 @@ h1{
     align-items: center;
     gap: 20px;
     padding: 20px;
+    background-color:rgb(118, 217, 237);
 }
 
+.profile > div >p{
+    margin-left: 20px;
+}
 .profilepic{
     height: 200px;
     width: auto;
     border-radius: 20px;
 }
 
-div > h2{
+.sec1{
+    background-color:rgb(118, 217, 237);
+}
+
+.sec2{
+    background-color: rgb(118,217,237);
+}
+
+.sec3{
+    background-color: rgb(118,217,237);
+}
+section> h2{
     margin-left: 20px;
 }
 
-div > ul{
+section > ul{
     margin-left: 30px;
+}
+
+.lastlvlul{
+    font-size: smaller;
 }
 
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .buttons{
@@ -66,4 +86,9 @@ footer {
     text-decoration: none;
     color: rgb(3, 202, 242);
     font-weight: bold;
+}
+
+.name{
+    font-weight: bolder;
+    color: blueviolet;
 }
