@@ -4,23 +4,66 @@ body{
     padding: 0;
     margin: 0;;
 }
-.buttons{
-    border: none;
-    background-color:yellow;
+
+ul.header{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    margin-top:20px;
+    padding: 10px 0;
+}
+
+li.header a {
+    background-color: white;
     border-radius: 20px;
-    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 202, 242);
 }
 h1{
     color: blue;
     text-align: center;
 }
 
-li.header{
-    display: inline-block;
-    margin: 20px;
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
-ul.header{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+
+.profilepic{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+div > h2{
+    margin-left: 20px;
+}
+
+div > ul{
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    border: none;
+    border-radius: 20px;
+    background-color:white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: rgb(3, 202, 242);
+    font-weight: bold;
 }
